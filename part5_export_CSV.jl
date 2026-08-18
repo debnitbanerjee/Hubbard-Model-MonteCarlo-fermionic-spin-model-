@@ -1,7 +1,7 @@
-include("part2_calc.jl")   # brings in run_MC, structure_factor, etc. (no plotting needed)
+include("part2_calc.jl")   
 using CSV, DataFrames
 
-outdir = raw"D:\plots\TCMP\Hubbard MonteCarlo\T vs U data"
+outdir = raw"PASTE YOUR PATH"
 isdir(outdir) || mkpath(outdir)
 
 
